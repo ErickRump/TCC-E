@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    background-color: rgb(32, 32, 184);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, p {
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 40px;
+}
+
+.i1, .i2, .i3, .i4, .i5, .i6, .i7 {
+    width: 90%;
+    max-width: 500px;
+    height: 300px;
+    margin: 20px auto;
+    border-style: double;
+    border-width: 10px;
+    border-color: #000;
+    border-radius: 35px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-left: 370px;
+}
+
+.i1:hover, .i2:hover, .i3:hover, .i4:hover, .i5:hover, .i6:hover, .i7:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+    .i1, .i2, .i3, .i4, .i5, .i6, .i7 {
+        width: 90%;
+        height: auto;
+    }
+    
+    h1 {
+        font-size: 2em;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+    }
+}
+
+.portateis {
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    margin-left: 570px;
+
+}
