@@ -7,7 +7,7 @@ body {
     padding: 0;
 }
 
-h1, p {
+h1, h2, p {
     text-align: center;
     color: white;
     margin: 20px;
@@ -16,6 +16,10 @@ h1, p {
 h1 {
     font-size: 3em;
     margin-top: 50px;
+}
+
+h2 {
+    font-size: 2em;
 }
 
 p {
@@ -37,13 +41,13 @@ p {
     margin-left: 370px;
 }
 
-.i1:hover, .i2:hover, .i3:hover, .i4:hover, .i5:hover, .i6:hover, .i7:hover {
+.i1:hover, .i2:hover, .i3:hover, .i4:hover, .i5:hover {
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 @media (max-width: 768px) {
-    .i1, .i2, .i3, .i4, .i5{
+    .i1, .i2 {
         width: 90%;
         height: auto;
     }
@@ -57,12 +61,11 @@ p {
     }
 }
 
-.portateis {
+.link {
     text-decoration: none;
     font-size: 25px;
     color: #ffffff;
     margin-left: 570px;
-
 }
 
 menu, a{
