@@ -39,7 +39,7 @@ p {
     border-color: #000;
     border-radius: 35px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    margin-left: 370px;
+    margin-left: 270px;
 }
 
 .i1:hover, .i2:hover, .i3:hover, .i4:hover, .i5:hover, .i6:hover, .i7:hover {
@@ -75,4 +75,8 @@ menu, a{
     color: #000;
     padding: 20px;
     margin-left: 90px;
+}
+
+.video1{
+  margin-left: none;
 }
